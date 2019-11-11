@@ -7,6 +7,7 @@
   "dependencies": {
     "@babel/runtime": "7.0.0-beta.55",
     "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-polyfill": "^6.26.0",
     "bcrypt": "^3.0.0",
     "classnames": "^2.2.6",
     "meteor-node-stubs": "^0.4.1",
