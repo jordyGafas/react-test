@@ -8,7 +8,7 @@ const clientConfig = {
     rules: [
       {
         test: /\.(js|jsx)$/,
-        exclude: /node_modules/,
+        exclude: /node_modules\/(?!(base|base64-js|meteor-node-stubs|swiper)\/).*/,
         use: ["babel-loader"]
       },
       {
